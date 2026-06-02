@@ -10,3 +10,9 @@ c=int(b)
 sum=a+c
 print(sum)
 -----------------------
+concentation:
+strl1="sreeja"
+strl2="ale"
+print(strl1+strl2)
+output:-sreeja.ale
+-----------------------
