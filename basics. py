@@ -2,3 +2,11 @@ name=input("name: ")
 age=int(input("age: "))
 print(name)
 print(age)
+--------------------------
+type casting=converting string into int or float
+a=1
+b="2"
+c=int(b)
+sum=a+c
+print(sum)
+-----------------------
