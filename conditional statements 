@@ -15,3 +15,9 @@ if(num>=18):
  print("can vote ")
 else:
   print("no vote")
+-------------------------
+"""Identation=giving space thay belongs to statements like if,else,elif,for,while
+eg:1)if(num>=18):
+        print("can vote ")  [works]
+2)if(num>=18):
+ print("can vote ") [will not work]
