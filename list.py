@@ -1,4 +1,4 @@
-list= [2 1 3]
+tlist= [2 1 3]
 list.append(4)
 print(list) # add element at end
 list.sort()
@@ -35,6 +35,16 @@ list.append(l2)
 list.append(l3)
 print(list)
 ‐-------------------------------
+find largest smallest and sum of no.s and indx of any element in list: 
+n=[ 10 20 30 40 50]
+print(max(n))
+print(min(n))
+print(n.index(n))
+‐-------------------------------
+avg no.and find indx
+n=[ 10 20 30 40 50]
+avg=sum(n)/len()
+print(avg)
 
 
 
