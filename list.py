@@ -45,6 +45,23 @@ avg no.and find indx
 n=[ 10 20 30 40 50]
 avg=sum(n)/len()
 print(avg)
+‐-------------------------------
+find list is empty
+
+numbers = []
+
+if len(numbers) == 0:
+    print("List is empty")
+else:
+    print("List is not empty"
+‐-------------------------------
+find 2nd largest no.
+
+numbers = [10, 50, 20, 40, 30]
+
+numbers.sort()
+
+print(numbers[-2])
 
 
 
