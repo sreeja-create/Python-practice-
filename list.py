@@ -19,8 +19,22 @@ output:-
 3 1 2
 1 3
 2 5 3
-
-
+‐-------------------------------
+print 1st ans last no
+list=[ 10 20 30 40 50]
+print(list[0])
+print(list[-1])
+‐-------------------------------
+enter 3 no.s & store in list
+list=[]
+l1=10
+l2=20
+l3=30
+list.append(l1)
+list.append(l2)
+list.append(l3)
+print(list)
+‐-------------------------------
 
 
 
