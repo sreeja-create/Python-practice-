@@ -12,6 +12,8 @@ print(list)
 list.insert(index,element) # inserts element 
 list.insert(1,5)
 print(list)
+list.remove(1) # removes 1st occurance of the element 
+print(list)
 output:-
 2 1 3 4
 1 2 3
@@ -19,6 +21,7 @@ output:-
 3 1 2
 1 3
 2 5 3
+2 3
 ‐-------------------------------
 print 1st ans last no
 list=[ 10 20 30 40 50]
