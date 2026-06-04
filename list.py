@@ -65,6 +65,11 @@ numbers = [10, 50, 20, 40, 30]
 numbers.sort()
 
 print(numbers[-2])
+‐-------------------------------
+lists are mutable 
+list[0]=5 # possible
+strings are immutable 
+str[0]="y" # not possible
 
 
 
