@@ -9,6 +9,11 @@ print(dic)
 
 . strings requires quotes
 . no.s and boolean(true,false) does not need       quotes
+. can print null dict
+nulldict={}
+print(nulldict)
+output:-{} 
+
  dict methods:-
 . dictname.keys() # return all keys
 print(dict.keys())
@@ -27,4 +32,6 @@ stud={
 }
 }
 print(stud)
+print(stud["sub"])
+print(stud["sub"]["chem"])
 
