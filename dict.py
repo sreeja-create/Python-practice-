@@ -2,7 +2,7 @@ dictonaries store key value pairs
 mutable
 dic={
 "name":"sree",
-"age"=17,
+"age":17,
 "isready":true
 }
 print(dic)
@@ -16,3 +16,15 @@ print(dict.keys())
 print(dict.values())
 . dictname.items() # return all key value pairs as tuples
 . dictname.get() # 
+‐-------------------------------
+Nested dictonary:-
+stud={
+"name":"sree",
+"age":17,
+"sub":{
+"phy":20,
+"chem":10
+}
+}
+print(stud)
+
