@@ -81,3 +81,11 @@ student.pop("age")
 
 print(student)
 ‐-------------------------------
+student.get("name")
+student.keys()
+student.values()
+student.items()
+student.update({"age": 17})
+student.pop("age")
+student.clear()
+‐-------------------------------
