@@ -60,4 +60,24 @@ student = {
 }
 
 print(student.keys())
-    
+‐-------------------------------
+removes a key
+student = {
+    "name": "Abhinay",
+    "age": 17
+}
+
+student.pop("age")
+
+print(student)
+‐------------------------------
+clears everything from dic
+student = {
+    "name": "Abhinay",
+    "age": 17
+}
+
+student.pop("age")
+
+print(student)
+‐-------------------------------
