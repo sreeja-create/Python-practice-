@@ -54,6 +54,35 @@ while idx<len(list)-1
 if(tup[idx]==target)
  print("found at indx",idx)
 idx=idx+1
+---------------
+for loop:
+1st method
+for item in sequence:
+#some work 
 
-
+n=[1,2,3,4]
+for item in n:
+   print(item)
+output:-
+1 
+2
+3
+4
+#item=1.    
+print(item)
+item=2
+print(item).....so on
+-----------
+fruits=["app","orag","mango"]
+for i in fruits:
+print(i)
+output:-
+app
+org
+mango
+----------
+2nd method:-
+.for i in range()
+.for i in range(start,stop)
+.for i in range(stat,stop,step)
 
