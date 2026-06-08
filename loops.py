@@ -113,3 +113,18 @@ output:-
 8
 10
 -----------
+print 6 table
+for i in range(1,11)
+ print("6 ×" i "="6*i)
+------------
+print no.s from 10 to 1
+for i in range(10,0,-1)
+print(i)
+output:-
+10
+9
+.
+.
+
+1
+---------
