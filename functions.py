@@ -52,3 +52,38 @@ print_list([1,2,3,4,5])
 output:-
 [1,2,3,4,5]
 -------------
+2nd method with return type:
+
+def funt_name(para):
+    return para
+result=funct_name(value)
+print(result)
+---------
+def add(a,b)
+return a+b
+result=add(2,3)
+print(result)
+output:-5
+(or)
+def add(a,b)
+print(a+b)
+result=add(2,3)
+print(result)
+output:-5
+none
+---------
+def max(a,b)
+ if a>b:
+   return a
+ else:
+   return b
+result=max(5,6)
+print(result)
+(or)
+if a>b:
+   return a
+ else:
+   return b
+print(max(5,6))
+(or)
+-----------
