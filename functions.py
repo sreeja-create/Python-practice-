@@ -156,3 +156,17 @@ def odd(n)
   odd(n+2)
 odd(1)
 --------
+sum of no.s from 1t0 5
+def sum(n)
+  if n==1
+  return 1
+  return n+sum(n-1)
+sum(5)
+--------
+factorial 
+def fact(n)
+    if n==1
+     return 1
+     return n*fact(n-1)
+  fact(5)
+-------
