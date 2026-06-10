@@ -140,3 +140,19 @@ def num(n)
   num(n+1)
 num(1)
 -------
+print python 3 time
+def num(n)
+  if(n==4)
+  return 
+    print("python")
+  num(n+1)
+num(1)
+-----
+print odd no.s from 1 to 10
+def odd(n)
+  if n==11
+  return 
+  print(n)
+  odd(n+2)
+odd(1)
+--------
