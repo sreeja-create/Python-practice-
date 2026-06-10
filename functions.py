@@ -170,3 +170,12 @@ def fact(n)
      return n*fact(n-1)
   fact(5)
 -------
+def mult3(n):
+    if n > 15:
+        return
+
+    print(n)
+    mult3(n + 3)
+
+mult3(3)
+--------
