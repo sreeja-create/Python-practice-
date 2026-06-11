@@ -15,3 +15,11 @@ f.close()
 output:
 iam here
 -----
+f=open("data.txt","a")  
+f.write("\napple")
+f.close()
+ouput:
+hello this is me
+how r u
+apple
+--------
