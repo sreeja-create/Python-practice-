@@ -23,3 +23,22 @@ hello this is me
 how r u
 apple
 --------
+f=open("data.txt","r+")  
+f.read()
+f.write("mahe")
+f.close()
+f2:hello world
+output
+ hello world 
+mahe
+-------
+f=open("data.txt","a+")  
+f.write("\n this is me ")
+f.seek(0)
+print(f.read())
+f.close()
+f2;
+hello
+output: hello
+this is me
+-------
