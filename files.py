@@ -59,6 +59,15 @@ if "learning" in content:
   print("found)
         else:
  print("not found")
+f.close()
 --------
+print in separate lines
+f=open("data.txt","r")  
+for line in f:
+ print(line)
+ f.close()
+ -------
+ 
+
 
 
