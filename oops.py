@@ -21,3 +21,9 @@ class Student:
 s1=Student("sree")
 s1.show()
 -------
+class Student:
+   def show(self,name):
+      print(name)
+s1=Student()
+n="abhi"
+s1.show(n)
