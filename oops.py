@@ -27,3 +27,13 @@ class Student:
 s1=Student()
 n="abhi"
 s1.show(n)
+------
+class Student:
+    def __init__(self,marks_list):
+        self.marks_list=marks_list
+    def marks(self):
+        for i in self.marks_list:
+           print(i)
+s1=Student([10,20,30])
+s1.marks()
+----------
