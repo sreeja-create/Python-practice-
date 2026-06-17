@@ -12,3 +12,12 @@ class Student:
 s1=Student("priya")
 print(s1.name)
 --------
+using method:-
+class Student:
+    def __init__(self,name):
+       self.name=name
+    def show(self):
+       print(self.name)
+s1=Student("sree")
+s1.show()
+-------
