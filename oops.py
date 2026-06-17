@@ -37,3 +37,12 @@ class Student:
 s1=Student([10,20,30])
 s1.marks()
 ----------
+class Student:
+    def __init__(self,radius):
+        self.radius=radius 
+    def area(self):
+         area=3.14*self.radius*self.radius
+         print(area)
+s1=Student(5)
+s1.area()
+-------
