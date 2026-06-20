@@ -52,16 +52,15 @@ check whether a no. is armstrong or not:
 
 n=int(input("n: "))
 temp=n
-while(n>0)
-{
-d=n%10
-rev=d*d*d
-n=n/10
-}
+rev=0
+while n>0:
+    d=n%10
+    rev=rev+d*d*d
+    n=n//10 #in python / opeartor always returns flaot value,as we require integer value we use // opeartor
 if temp==rev:
-print(temp "is armstrong")
+    print("is armstrong")
 else:
-print(temp "is not a armstrong")
+    print("is not armstrong")
 --------------
 
 
