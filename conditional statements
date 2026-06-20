@@ -31,4 +31,13 @@ elif(num==0):
 else:
   print("neg")
 -----------
+check whether a no. is divisible by both 3 and 5
+n=int(input("n: "))
+
+
+if n%3==0 and n%5==0:
+    print("diviible by 5 and 3")
+else:
+    print("not divisible")
+-----------
 
