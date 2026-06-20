@@ -22,7 +22,8 @@ eg:1)if num>=18:
 2)if num>=18:
  print("can vote ") [will not work]
 ----------
-check whether a no. is pos neg or zero
+check whether a no. is pos neg or zero:
+
 num=int(input("num: "))
 if num>0:
   print("pos")
@@ -31,13 +32,21 @@ elif(num==0):
 else:
   print("neg")
 -----------
-check whether a no. is divisible by both 3 and 5
+check whether a no. is divisible by both 3 and :
+
 n=int(input("n: "))
-
-
 if n%3==0 and n%5==0:
     print("diviible by 5 and 3")
 else:
     print("not divisible")
 -----------
+electricity bill units :
+
+units=int(input("units: "))
+if units<=100:
+    print(units*5)
+else:
+    print(units*7)
+------------
+
 
