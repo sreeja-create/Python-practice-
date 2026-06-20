@@ -48,5 +48,20 @@ if units<=100:
 else:
     print(units*7)
 ------------
+check whether a no. is armstrong or not:
+
+n=int(input("n: "))
+temp=n
+while(n>0)
+{
+d=n%10
+rev=d*d*d
+n=n/10
+}
+if temp==rev:
+print(temp "is armstrong")
+else:
+print(temp "is not a armstrong")
+--------------
 
 
