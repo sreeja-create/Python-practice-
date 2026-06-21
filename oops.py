@@ -120,4 +120,13 @@ class Car(Vehicle):
 s1=Car("bmw",120)
 s1.show()
 -------------
+class Shape:
+    def __init__(self,s):
+        self.s=s
+class Area(Shape):
+    def show(self):
+        print(self.s*self.s) 
+s1=Area(8)
+s1.show()               
+-----------
             
