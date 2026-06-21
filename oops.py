@@ -129,4 +129,16 @@ class Area(Shape):
 s1=Area(8)
 s1.show()               
 -----------
+#constructor store balance child class savingsaacount ,method deposi some amount, display final balance
+class Bank:
+    def __init__(self,balance):
+        self.balance=balance
+class Savingsaccount(Bank):
+    def deposit(self,deposit):
+        self.balance+=deposit
+        
+        print(self.balance)
+s1=Savingsaccount(10000)
+s1.deposit(150)        
+-------------
             
