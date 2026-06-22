@@ -83,6 +83,15 @@ elif n>=101 and n<200:
 else:
     print(n*8)        
 ------------------
+#check whether the input is character or digit or vowel or consonant
 
-
+ch=input("n=")
+if ch in "aeiouAEIOU":
+    print("vowel")         #ch in "aeiouAEIOU" means checks whether ch is in "aeio...1" ; ch.isdigit() means whether "a"isdigit or not
+elif ch.isdigit():
+    print("no.") 
+elif ch.isalpha():
+    print("consonant")    
+else:
+    print("special character")      
 
