@@ -219,3 +219,12 @@ if prime==True:
 else:
     print("not prime")    
 --------------------
+#print largest digit in a no.
+n=12765
+largest=0
+while(n>0):
+    d=n%10
+    if d>largest:
+        largest=d
+print(largest)     
+-------------
