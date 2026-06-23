@@ -207,3 +207,15 @@ for i in n:
     else:
         print("given input is string")
 ----------------------        -----------------
+#CHECK WHETEHR A NO. PRIME
+n=5
+prime=True
+for i in range(2,n):
+    if n%i==0:
+        prime=false    #if we print statements i.e prime and not prime inside if of for loop output might give ''prime prime prime'' it prints 3 times so print statements outside for loop
+        break
+if prime==True:
+    print("prime")
+else:
+    print("not prime")    
+--------------------
