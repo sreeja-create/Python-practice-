@@ -228,3 +228,10 @@ while(n>0):
         largest=d
 print(largest)     
 -------------
+#table
+n=9
+i=1
+while(i<=10):
+    print(n ,"x", i, "=", n*i)
+    i=i+1
+    --------
