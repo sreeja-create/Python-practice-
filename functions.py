@@ -189,3 +189,16 @@ def countdown(n):
 
 countdown(10)
 ------
+#CHECK WHETHER A NO. IS PRIME
+def prime(n):
+    prime=True
+    for i in range(2,n):
+        if n%i==0:
+            prime=False
+    if prime==True:
+        print("prime no")
+    else:
+        print("not prime")        
+prime(6)     
+--------------
+
