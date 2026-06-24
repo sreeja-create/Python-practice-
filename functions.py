@@ -206,4 +206,14 @@ def area(n):
     return 3.14*n*n
 print(area(4))
 --------
+#COUNT VOWELS IN A STRING
+def check(n):
+    count=0
+    for i in n:
+        if i in "aeiouAEIOU":
+            count=count+1
+    print(count)
+
+check("sreejaiou")   
+--------------
 
