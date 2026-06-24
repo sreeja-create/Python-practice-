@@ -216,4 +216,29 @@ def check(n):
 
 check("sreejaiou")   
 --------------
+#PRINT PRIME NO.S FROM 1  TO n
+def prime(n):
+    for n in range(2,n+1):
+       prime=True
+       for i in range(2,n-1):
+           if n%i==0:
+               prime=False
+               break
+       if prime==True:
+           print(n)
+prime(50)    
+-------------
 
+
+
+
+
+
+
+
+
+
+
+
+
+     
