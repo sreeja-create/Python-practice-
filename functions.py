@@ -201,4 +201,9 @@ def prime(n):
         print("not prime")        
 prime(6)     
 --------------
+#AREA OF CIRCLE
+def area(n):
+    return 3.14*n*n
+print(area(4))
+--------
 
