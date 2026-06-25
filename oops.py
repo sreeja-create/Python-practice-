@@ -87,6 +87,26 @@ s1.details("oppo")
 s1.show()
 s1.display("bad")        
 ---------
+from abc import ABC, abstractmethod
+class Vehicle(ABC):
+    @abstractmethod
+    def start(self):
+       pass
+class Car(Vehicle):
+    def start(self,name):
+        self.name=name
+        print(self.name)
+          
+class Bike(Vehicle):
+    def start(self,mileage):
+        self.mileage=mileage
+        print(self.mileage)
+          
+s1=Car()
+s1.start("mahindra")
+s2=Bike()
+s2.start("120m")
+---------------
 #wap using abstraction for a shape class with an area() method and a square class that printtsarea of a square 
 from abc import ABC,abstractmethod
 class Shape(ABC):
