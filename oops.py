@@ -45,7 +45,7 @@ class Student:
          print(area)
 s1=Student(5)
 s1.area()
--------
+---------------
 #abstraction
 #wap using abstraction foe a vehicle class with start() method and a car class that prints "car is started"
 from abc import ABC, abstractmethod
@@ -162,6 +162,23 @@ class Area(Shape):
         print(self.s*self.s) 
 s1=Area(8)
 s1.show()               
+-----------
+#multiple inheritance
+class Person:
+    def detail(self,name):
+        self.name=name
+class Student(Person):
+    def show(self,rollno):
+        self.roll=rollno    
+class Research(Student):
+    def display(self,projectname):
+        self.projectname=projectname    
+        print(self.name,self.roll,self.projectname)    
+
+s1=Research()
+s1.detail("abhinay")
+s1.show(1234)
+s1.display("slash 2.o")
 -----------
 #constructor store balance child class savingsaacount ,method deposi some amount, display final balance
 class Bank:
