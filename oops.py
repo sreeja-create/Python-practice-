@@ -180,6 +180,23 @@ s1.detail("abhinay")
 s1.show(1234)
 s1.display("slash 2.o")
 -----------
+#ONLONE SHOPPING
+class Product:
+    def item(self,name):
+        self.name=name
+class Electronics(Product):
+    def show(self,warranty):
+        self.warranty=warranty
+class Mobile(Electronics):
+    def display(self,ram,storage):
+        self.ram=ram
+        self.storage=storage
+        print(self.name,self.warranty,self.ram,self,storage)
+s1=Mobile()
+s1.item("chocolate")
+s1.show("2 years")
+s1.display(16,871)                        
+-------------
 #constructor store balance child class savingsaacount ,method deposi some amount, display final balance
 class Bank:
     def __init__(self,balance):
