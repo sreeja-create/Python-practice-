@@ -72,7 +72,21 @@ class Home(Elect):
 s1=Home
 s1.bill(100)    
 ----------
-
+class Device:
+    def details(self,brand):
+        self.brand=brand
+class Phone(Device):
+    def show(self):
+        pass            
+class Smartphone(Phone):
+     def display(self,internetconnection):
+         self.internetconnection=internetconnection
+         print(self.brand,self.internetconnection)
+s1=Smartphone()
+s1.details("oppo")
+s1.show()
+s1.display("bad")        
+---------
 #wap using abstraction for a shape class with an area() method and a square class that printtsarea of a square 
 from abc import ABC,abstractmethod
 class Shape(ABC):
