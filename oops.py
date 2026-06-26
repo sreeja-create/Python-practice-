@@ -93,6 +93,25 @@ s1.area(3)
 s2=Rectangle()
 s2.area(2,6)     
 ------------
+#food delivery
+from abc import ABC,abstractmethod
+class Food(ABC):
+    @abstractmethod
+    def taste(self):
+        print("please order your food! delivery within 10 minutes")
+class Pizza(Food):
+    def taste(self):
+        super().taste()
+        print("chessy,chicken pizza")
+class IceCream(Food):
+    def taste(Self):
+        print("sweet,chocalate flavour")        
+
+s1=Pizza()
+s1.taste()
+s2=IceCream()
+s2.taste()
+----------
 #bank transanction
 from abc import ABC,abstractmethod
 class Bank(ABC):
