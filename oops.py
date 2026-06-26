@@ -91,7 +91,26 @@ class Rectangle(Shape):
 s1=Square()
 s1.area(3)
 s2=Rectangle()
-s2.area(2,6)        
+s2.area(2,6)     
+------------
+#bank transanction
+from abc import ABC,abstractmethod
+class Bank(ABC):
+    @abstractmethod
+    def interest(self):
+        print("banks interest")
+class SBI(Bank):
+    def interest(self):
+        super().interest()
+        print("SBI interest=7%")
+class HDFC(Bank):
+    def interest(self):
+        print("HDFC Interset=8%")
+s1=SBI()
+s1.interest()
+s2=HDFC()
+s2.interest()                
+---------------
 
 class Device:
     def details(self,brand):
