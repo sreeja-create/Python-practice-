@@ -100,6 +100,21 @@ for i in scores:
 print("no. of half centuries=",count)
 print("no. of centuries=",countcent)        
 -------------
-
+#place even and odd no.s in separete list
+num=[10,14,34,50,70,98]
+adults=[]
+youngsters=[]
+seniorcitizens=[]
+for i in num:
+    if i<=19:
+        youngsters.append(i)
+    if i>19 and i<=50:
+        adults.append(i)   
+    if i>50:
+        seniorcitizens.append(i)
+print("adults =",adults)
+print("youngsters =" ,youngsters)
+print("senior citizens=" ,seniorcitizens)        
+-----------
 
 
