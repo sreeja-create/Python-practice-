@@ -345,14 +345,36 @@ class Cat(Dog):
             super().sound()
             print("meow") 
 s1=Cat()
+s1.sound()
 output:-
 sounf of diff animals
 bark
 meow
---------
+-----------------
+#abstraction + inheritance + polymorphisim
+from abc import ABC,abstractmethod
+class Library(ABC):
+    @abstractmethod
+    def show(self):
+        print("library management system")
+class Storybook(Library):
+    def show(self):
+        super().show()
+        print("no of story books=38")
+class Biographies(Storybook):
+    def show(self):
+        super().show()
+        print("new biography book=12")
+class Historybook(Biographies):
+    def show(self):
+        super().show()          #as private variables are not added it does not satisfy encapsulation
+        print("history bks=15")
+s1=Historybook()
+s1.show()     
+------------------
 
 
 
 
-s1.sound()
+
             
