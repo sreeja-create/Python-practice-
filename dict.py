@@ -99,4 +99,18 @@ mobilephone["brand"]="oppo"
 mobilephone["colour"]="black"
 for i in mobilephone:
     print(i,mobilephone[i])
-      -------------
+-----------      -------------
+ #calculate sum avg ,max value
+student={
+    "sreeja":10,
+    "priya":30,
+    "harika":50
+}
+sum=0
+for i in student:
+    sum=sum+student[i]
+print(sum)  
+avg=sum/3
+print(avg)  
+print(max(student.values()))
+print(student["sreeja"],student["priya"],student["harika"])
