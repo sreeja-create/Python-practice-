@@ -89,3 +89,14 @@ student.update({"age": 17})
 student.pop("age")
 student.clear()
 ‐-------------------------------
+ #printing all keys and values
+ mobilephone={
+     "brand":"samsung",
+     "price":15000,
+     "model":"smtg"
+}
+mobilephone["brand"]="oppo"
+mobilephone["colour"]="black"
+for i in mobilephone:
+    print(i,mobilephone[i])
+      -------------
