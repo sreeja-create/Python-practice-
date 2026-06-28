@@ -121,6 +121,17 @@ for i in words:
         d[i]=1    
 print(d)        
 -----------
+#reverse of a dict
+student={
+    "name":"sreeja",
+    "rollno":2,
+    "college":"sfc"
+}
+reverse_dict={}
+for i in student:
+    reverse_dict[student[i]]=i
+print(reverse_dict)
+-----------
 
 
 
