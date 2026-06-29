@@ -24,3 +24,18 @@ print one no. in tuple:
 t = (100,)
 print(t) # comma is mandatory without comma it becomes a integer
 ‐-------------------------------
+#some tuple mthods
+t=(1,2,6,2,2,10,7,10,9,10)
+largest=t[0]
+for i in t:
+    if i>largest:
+        largest=i
+print(largest)   
+print(t.count(10))     
+print(t[0])
+print(type(t))
+print(9 not in t)
+print(20 in t)
+print(max(t))
+print(sum(t))
+-----------
