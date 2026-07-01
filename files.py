@@ -93,3 +93,7 @@ with open("sample.txt","r+") as f:
 with open("sample.txt","r")as f:
     print(f.read())
  -------------
+#writing usimg 'with'
+with open("sample.txt","a+")as f:
+    f.write("this is me! here to cde!welcome to code hub")
+ ----------
