@@ -97,3 +97,14 @@ with open("sample.txt","r")as f:
 with open("sample.txt","a+")as f:
     f.write("this is me! here to cde!welcome to code hub")
  ----------
+3count vowels in a file
+with open("sample.txt","r")as f:
+    data=f.read()
+    
+    count=0
+    for i in data:
+        if i in "aeiou":
+            count=count+1
+    print(count)        
+----------------         -----------
+    
